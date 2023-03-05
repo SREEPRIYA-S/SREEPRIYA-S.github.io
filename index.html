@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+    
+    <!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {
@@ -20,13 +24,14 @@ body {
 
 .left {
   left: 0;
-  background-color: rgb(32, 54, 94);
+  background-color: rgb(245, 248, 248);
+  color: black;
 }
 
 .right {
   right: 0;
-  background-color: rgb(245, 240, 240);
-  color: black;
+  background-color: rgb(158, 150, 150);
+  color: rgb(6, 6, 6);
 }
 
 .centered {
@@ -46,40 +51,60 @@ body {
   width: 150px;
   border-radius: 50%;
 }
-.container {
-  width: 50%;
-  background-color: rgb(112, 110, 110);
-  border-bottom: 40%;
+.height-100{
+    height:100vh;
 }
 
-.skills {
-  text-align: left;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  color: rgb(22, 2, 2);
+.card{
+    width:380px;
+    border:none;
+    height:280px;
 }
 
-.english {width: 100%; background-color: #f1f6f3;}
-.malayalam {width: 100%; background-color: #e9e9f1;}
-.hindi {width: 65%; background-color: #ece6e6;}
+.ratings{
+    margin-right:60px;
+}
+
+.ratings i{
+    
+    color:#cecece;
+    font-size:32px;
+}
+
+.rating-color{
+    color:#5e6063 !important;
+}
+
+.small-ratings i{
+  color:#cecece;   
+}
+
+.review-stat{
+    font-weight:10;
+    font-size:18px;
+    margin-bottom:2px;
+}
+
 
 </style>
 </head>
 <body>
-
+    
 <div class="split left">
   <div class="centered">
-    <img src="passport pic.png" alt="Avatar man">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+  
+    <img src="passport pic.png" alt="passport pic.png" class="img-thumbnail">
     <h2>SREEPRIYA S</h2>
-        <a style="color:rgb(245, 240, 240);" href="tel:8078910250">
-            <i class="fa fa-phone-square"></i> +91 8078910250
-        </a><br><br>
-        <a style="color:rgb(245, 240, 240);" href="mailto:sreepriya sreejith2001@gmail.com">
-            <i class="fa fa-envelope"></i> sreepriyasreejith2001@gmail.com
-        </a><br><br>
-        <a style="color:rgb(245, 240, 240);" href="https://www.linkedin.com//in//sreepriya-s-847400221/">
-            <i class="fa fa-linkedin"></i> Sreepriya_s
-        </a><br><br><br>
+    <button class="btn btn-primary" type="submit"><a href="tel:8078910250" style="color: white; text-decoration: none;">
+        <i class="fa solid fa-phone"></i>Make a Call!    
+    </a></button>
+    <button class="btn btn-primary" type="submit"><a href="mailto:sreepriyasreejith2001@gmail.com" style="color: white; text-decoration: none;">
+      <i class="fa solid fa-envelope"></i> Mail  
+  </a></button>
+  <br><br><br>
   </div>
   <div class="align">
     <h3><u>EDUCATION</u></h3>
@@ -93,28 +118,46 @@ body {
         2017 – 2019 | pathanamthitta, india</p>
     
 <h3><u>LANGUAGES</u></h3>
-<p>MALAYALAM</p>
-<div class="container">
-  <div class="skills malayalam">100%</div>
-</div>
-
-<p>ENGLISH</p>
-<div class="container">
-  <div class="skills english">100%</div>
-</div>
-
-<p>HINDI</p>
-<div class="container">
-  <div class="skills hindi">65%</div>
-  
-</div>
-<br><br>
-<P></P>
-
-</div>
-
+<div class="languages">
+    
+        <div class="english align-items-center">
+            <h5 class="review-stat">english</h5>
+            <div class="small-ratings">
+                <i class="fa fa-star rating-color"></i>
+                <i class="fa fa-star rating-color"></i>
+                <i class="fa fa-star rating-color"></i>
+                <i class="fa fa-star rating-color"></i>
+                <i class="fa fa-star rating-color"></i>
+            </div>
+            
+        </div>
+        
+        <div class="malayalam ">
+            <h5 class="review-stat">malayalam</h5>
+            <div class="small-ratings">
+                <i class="fa fa-star rating-color"></i>
+                <i class="fa fa-star rating-color"></i>
+                <i class="fa fa-star rating-color"></i>
+                <i class="fa fa-star rating-color"></i>
+                <i class="fa fa-star rating-color"></i>
+            </div>
+        </div>
+        <div class="hindi align-items-center">
+            <h5 class="review-stat">hindi</h5>
+            <div class="small-ratings">
+                <i class="fa fa-star rating-color"></i>
+                <i class="fa fa-star "></i>
+                <i class="fa fa-star "></i>
+                <i class="fa fa-star "></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        </div>
+        </div>
+        
 <div class="split right">
     <div class="align">
+        
         <P><STRONG><u>PROFILE</u></STRONG></P>
         <P>An ambitious artificial intelligence student who is passionate
             about machine learning and is willing to contribute to the
@@ -135,28 +178,42 @@ body {
                 </p>
           </ul>
           <hr/>
-          <p><STRONG><u>PROJECTS</u></STRONG></p>
-          <ul>
-            <li><STRONG>DNN FOR LOW POWER SYSTEM</STRONG></li>
-                  <em>Research to deploy DNN on low power mobile devices</em>
-                  <em>(08/2022 – present)</em>
-            <p>
-            <li><STRONG>REGRESSION USING ADMM</STRONG></li>
-            <em>Implementing ADMM for solving convex optimization problems
-                such as Lasso, Ridge regression</em>
-                    <em>(11/2021 – 03/2022)</em>
-                </p>
-          </ul>
-          <hr/>
+          <p><strong><u>PROJECTS</u></strong></p>
+          
+      <div class="accordion" id="accordionExample" >
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+    
+            <button class="accordion-button" type="button" style="background-color:#5e6063"  data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <strong> Regression  using ADMM </strong>
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show"  aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Implemented ADMM based and regular Lasso and Ridge regression models using python and made a comparative study of these models on the provided datasets.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" style="background-color:#5e6063" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <strong>DNN FOR LOW POWER SYSTEM</strong>
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Reseach to deploy Deep neural networks on edge devices
+            </div>
+          </div>
+        </div>
+        
+        </div>
           <p><STRONG><u>SKILLS</u></STRONG></p>
           <ul>
-            <li>PROGRAMMING</li>
-            <LI>COMMUNICATION</LI>
-            <LI>TIME MANAGEMENT</LI>
-            <li>TEAM WORK</li>
-            <LI>PRESENTATION</LI>
+          <li><a href="skill.html" class="btn btn-secondary btn-lg active" role="banner" aria-pressed="true">soft skills</a></li>
+          <BR>
+          <li><a href="skill2.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">technical skills</a></li>
           </ul>
-          <HR/>
           <p><STRONG><u>ORGANISATIONS</u></STRONG></p>
           <ul>
             <li><strong>AYUDH</strong></li>
@@ -170,10 +227,18 @@ body {
           <LI>MUSIC</LI>
           <LI>ACTING</LI>
         </ul>
-        <br><br>
-        <P></P>  
-              
-        
+        <br>
+        <P></P> 
+        <p><STRONG><u>DREAM DESTINATION</u></STRONG></p>
+        <ul>
+        <li><a href="maldives.jfif" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">maldives</a></li>
+        <BR>
+        <li><a href="bali.jfif" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Bali</a></li>
+        <BR>
+        <li><a href="kash.jfif" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Kashmir</a></li>
+        <BR>
+        <li><a href="switz.jfif" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Switzerland</a></li>
+    </ul>
     </div>
 </div>
      
