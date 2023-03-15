@@ -1,245 +1,151 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    
-    <!-- Bootstrap CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-  color: white;
-}
-
-.split {
-  height: 100%;
-  width: 65%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
-
-.left {
-  left: 0;
-  background-color: rgb(245, 248, 248);
-  color: black;
-}
-
-.right {
-  right: 0;
-  background-color: rgb(158, 150, 150);
-  color: rgb(6, 6, 6);
-}
-
-.centered {
-  position: relative;
-  top: 27%;
-  left: 25%;
-  transform: translate(-45%, -50%);
-  text-align: center;
-}
-.align{
-    text-align: left;
-    margin-left: 2%;
-
-}
-
-.centered img {
-  width: 150px;
-  border-radius: 50%;
-}
-.height-100{
-    height:100vh;
-}
-
-.card{
-    width:380px;
-    border:none;
-    height:280px;
-}
-
-.ratings{
-    margin-right:60px;
-}
-
-.ratings i{
-    
-    color:#cecece;
-    font-size:32px;
-}
-
-.rating-color{
-    color:#5e6063 !important;
-}
-
-.small-ratings i{
-  color:#cecece;   
-}
-
-.review-stat{
-    font-weight:10;
-    font-size:18px;
-    margin-bottom:2px;
-}
-
-
-</style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio Website</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+ 
 </head>
 <body>
-    
-<div class="split left">
-  <div class="centered">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
-  
-    <img src="passport pic.png" alt="passport pic.png" class="img-thumbnail">
-    <h2>SREEPRIYA S</h2>
-    <button class="btn btn-primary" type="submit"><a href="tel:8078910250" style="color: white; text-decoration: none;">
-        <i class="fa solid fa-phone"></i>Make a Call!    
-    </a></button>
-    <button class="btn btn-primary" type="submit"><a href="mailto:sreepriyasreejith2001@gmail.com" style="color: white; text-decoration: none;">
-      <i class="fa solid fa-envelope"></i> Mail  
-  </a></button>
-  <br><br><br>
-  </div>
-  <div class="align">
-    <h3><u>EDUCATION</u></h3>
-    <p> <strong>Amrita Vishwa Vidyapeedam</strong> <br>
-        <em>BTECH COMPUTER SCIENCE :
-            ARTIFICIAL INTELLIGENCE</em><br>
-        2020 – 2024 | Kollam, India<br>
-        CGPA - 9.09</p>
-    <p>Kendriya Vidyalaya<br>
-        HIGHER SECONDARY<br>
-        2017 – 2019 | Pathanamthitta, India</p>
-    
-<h3><u>LANGUAGES</u></h3>
-<div class="languages">
-    
-        <div class="English align-items-center">
-            <h5 class="review-stat">english</h5>
-            <div class="small-ratings">
-                <i class="fa fa-star rating-color"></i>
-                <i class="fa fa-star rating-color"></i>
-                <i class="fa fa-star rating-color"></i>
-                <i class="fa fa-star rating-color"></i>
-                <i class="fa fa-star rating-color"></i>
+    <header>
+        <a href="https://github.com/SREEPRIYA-S" class="logo">Portfolio</a>
+ 
+        <div class="bx bx-menu" id="menu-icon"></div>
+ 
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#Portfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <section class="home" id="home">
+        <div class="social">
+            <a href="https://github.com/SREEPRIYA-S"><i class='bx bxl-github'></i></a>
+        </div>
+        <div class="home-img">
+            <img src="pic1.jpeg" alt="">
+        </div>
+        <div class="home-text">
+            <span>Hello, I'm</span>
+            <h1>Sreepriya S</h1>
+            <h2>B.TECH STUDENT</h2>
+            <p>Amrita Vishwa Vidyapeetham <br> Amritapuri </p>
+        </div>
+ 
+    </section>
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+            <span>Introduction</span>
+        </div>
+        <div class="about-container">
+            <div class="about-img">
+                <img src="myself.jpg" alt="">
             </div>
+            <div class="about-text">
+                <p>An ambitious, flexible, competent team player pursuing Artificial Intelligence with a solid academic background.
+                    Experienced in programming languages such as Python, Java, and MATLAB, and familiar with popular AI frameworks
+                    like TensorFlow and PyTorch. Adept at understanding complex algorithms, mathematical models, and data structures,
+                    and experienced in working with large datasets and performing data analysis and visualization. Excellent
+                    communication, interpersonal, and teamwork skills, with a proven track record of successful project completion in a
+                    team environment.</p>
+                <br><br>
+                <a href="https://drive.google.com/file/d/1SskBtsL6xsU3HOTh3Wbp2GkwrbqjZ61X/view?usp=sharing" class="btn">VIEW RESUME</a>
+            </div>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <div class="heading">
+            <h2>Skills</h2>
+            <span>My Skills</span>
+        </div>
+        <div class="skills-container">
+            <div class="bars">
+                <div class="bars-box">
+                    <h3>HTML</h3>
+                    <span>94%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar html-bar"></div>
+                </div>
+                <div class="bars-box">
+                    <h3>CSS</h3>
+                    <span>84%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar css-bar"></div>
+                </div>
+                <div class="bars-box">
+                    <h3>Bootstrap</h3>
+                    <span>74%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar js-bar"></div>
+                </div>
+                <div class="bars-box">
+                    <h3>JavaScript</h3>
+                    <span>80%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar react-bar"></div>
+                </div>
+            </div>
+            <div class="skills-img">
+                <img src="SKILL.jpg" alt="">
+            </div>
+        </div>
+ 
+    </section>
+    
+    <section class="portfolio" id="Portfolio">
+        <div class="heading">
+            <h2>Projects</h2>
+            <span>WEB DEVELOPMENT</span>
+        </div>
+        <div class="portfolio-content">
+            <div class="portfolio-img">
+                <a href=" https://sreepriya-s.github.io/Tic-Tac-Toe_game/"><h3>TIC-TAC-TOE</h3></a>
+                <a  href="https://github.com/SREEPRIYA-S/Tic-Tac-Toe_game"   target="https://github.com/SREEPRIYA-S/Tic-Tac-Toe_game"
+        ><i> View Code</i></a>
+        <br>
+                <img src="tictac.gif" alt="">
+                
+
+            </div>
+            <div class="portfolio-img">
+                <a href=" https://sreepriya-s.github.io/Wordle_Game/"><h3>WORDLE</h3></a>
+                <a  href="https://github.com/SREEPRIYA-S/Wordle_Game"   target="https://github.com/SREEPRIYA-S/Wordle_Game"
+        ><i> View Code</i></a>
+        <br>
+                <img src="wordle.gif" alt="">
+            
+               
+
+            </div>
+            <div class="portfolio-img">
+                <a href="https://sreepriya-s.github.io/Photo_Album/"><h3>PHOTO ALBUM</h3></a>
+                <a  href="https://github.com/SREEPRIYA-S/Photo_Album"   target="https://github.com/SREEPRIYA-S/Photo_Album"
+        ><i> View Code</i></a>
+        <br>
+                <img src="album.gif" alt="">
+
+                
+
             
         </div>
-        
-        <div class="Malayalam ">
-            <h5 class="review-stat">malayalam</h5>
-            <div class="small-ratings">
-                <i class="fa fa-star rating-color"></i>
-                <i class="fa fa-star rating-color"></i>
-                <i class="fa fa-star rating-color"></i>
-                <i class="fa fa-star rating-color"></i>
-                <i class="fa fa-star rating-color"></i>
-            </div>
+    </section>
+    <div class="footer" id="contact">
+        <h2>Contact</h2>
+        <div class="footer-social">
+            <a href="tel:8078910250"><i class='bx bxs-phone' ></i></a>
+            <a href="https://www.linkedin.com//in//sreepriya-s-847400221/"><i class='bx bxl-linkedin' ></i></a>
+            <a href="mailto:sreepriyasreejith2001@gmail.com"><i class='bx bxl-gmail' ></i></a>
         </div>
-        <div class="Hindi align-items-center">
-            <h5 class="review-stat">hindi</h5>
-            <div class="small-ratings">
-                <i class="fa fa-star rating-color"></i>
-                <i class="fa fa-star "></i>
-                <i class="fa fa-star "></i>
-                <i class="fa fa-star "></i>
-                <i class="fa fa-star"></i>
-            </div>
-        </div>
-        </div>
-        </div>
-        
-<div class="split right">
-    <div class="align">
-        
-        <P><STRONG><u>PROFILE</u></STRONG></P>
-        <P>An ambitious artificial intelligence student who is passionate
-            about machine learning and is willing to contribute to the
-            success of the team through diligence, attention to detail, and
-            strong organizational abilities. Hands on experience in Python,
-            Java, MATLAB. Motivated to learn, adapt, and succeed
-            in technical field.</P>
-        <hr/>
-        <p><STRONG><u>PROFESSIONAL EXPERIENCE</u></STRONG></p>
-        <ul>
-            <li><STRONG>INTERN</STRONG></li>
-                  ASE-ACM
-                  <em>(07/2022 – 08/2022)</em>
-            <p>
-            <li><STRONG>MEMBER</STRONG></li>
-                    ACM -Amrita Student Chapter
-                    <em>(06/2022 – present)</em>
-                </p>
-          </ul>
-          <hr/>
-          <p><strong><u>PROJECTS</u></strong></p>
-          
-      <div class="accordion" id="accordionExample" >
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingOne">
-    
-            <button class="accordion-button" type="button" style="background-color:#5e6063"  data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              <strong> REGRESSION USING ADMM </strong>
-            </button>
-          </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show"  aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              Implemented ADMM based and regular Lasso and Ridge regression models using python and made a comparative study of these models on the provided datasets.
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button collapsed" type="button" style="background-color:#5e6063" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              <strong>DNN FOR LOW POWER SYSTEM</strong>
-            </button>
-          </h2>
-          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              Reseach to deploy Deep Neural Networks on Edge Devices.
-            </div>
-          </div>
-        </div>
-        <HR>
-        </div>
-          <p><STRONG><u>SKILLS</u></STRONG></p>
-          
-           <a href="skill.html" class="btn btn-secondary btn-lg active" role="banner" aria-pressed="true">Soft Skills</a>
-          <BR><BR>
-          <a href="skill2.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Technical Skills</a>
-           <BR>
-          <HR>
-          <p><STRONG><u>ORGANISATIONS</u></STRONG></p>
-          <ul>
-            <li><strong>AYUDH</strong></li>
-            <em>Member</em>
-            <em>(03/2022 – present)</em>
-            </ul>
-        <hr/>
-        <p><STRONG><u>INTERESTS</u></STRONG></p>
-        <ul>
-          <li>DANCE</li>
-          <LI>MUSIC</LI>
-          <LI>ACTING</LI>
-        </ul>
-        <HR>
-        <p><STRONG><u>DREAM DESTINATION</u></STRONG></p>
-        <a href="https://the-travelcenter.com/wp-content/uploads/2020/07/106616793-1594805802117gettyimages-900809876-scaled.jpg" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Maldives</a>
-        <BR><BR>
-        <a href="https://www.visittnt.com/blog/wp-content/uploads/2018/02/bali-indonesia.jpg" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Bali</a>
-        <BR><BR>
-        <a href="https://wallpapercave.com/wp/wp2678227.jpg" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Kashmir</a>
-        <BR><BR>
-        <a href="https://journeyz.co/wp-content/uploads/2020/08/Basel-2048x1365.jpg" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Switzerland</a>
-   <BR><BR>
+ 
     </div>
-</div>
-     
+    
+    <script src="./js/script.js"></script>
 </body>
-</html> 
+</html>
